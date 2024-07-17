@@ -22,6 +22,7 @@ This repository provides an minimal reproduction where a valid WebGPU program ru
 3. Open index.html
 4. Expected Behavior: Draws a black square with a red triangle
 
+
    ![Expected Image](./expected.png)
 5. Actual Behavior
    * Draws a black square
@@ -35,8 +36,7 @@ This repository provides an minimal reproduction where a valid WebGPU program ru
    ```
 
 [Reproduction Video](./reproduction_video.mp4)
-
-<video src="./reproduction_video.mp4" controls></video>
+![Gif](./reproduction_video.gif)
 
 ### Notes
 * The number of draw calls configured is relative low (256)
